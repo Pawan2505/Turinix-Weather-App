@@ -1,6 +1,36 @@
-# Getting Started with Create React App
+# Turinix Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Turinix Weather App is an interactive weather application that integrates with the OpenWeatherMap API to display current weather conditions and forecasts. The app focuses on providing a visually appealing user interface and a seamless user experience.
+
+## Getting Started
+
+To get started with the Turinix Weather App, follow these steps:
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/Pawan2505/Turinix-Weather-App.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd turinix-weather-app
+   ```
+
+3. Install dependencies using npm:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+5. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the app.
 
 ## Available Scripts
 
@@ -37,34 +67,34 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more about Create React App and React by visiting the following documentation:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+- [React documentation](https://reactjs.org/)
 
-### Code Splitting
+## APIs Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The Turinix Weather App integrates with the following APIs:
 
-### Analyzing the Bundle Size
+- **OpenWeatherMap**: Provides weather data for various locations around the world. [API Documentation](https://openweathermap.org/current)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Libraries Used
 
-### Making a Progressive Web App
+The Turinix Weather App utilizes the following libraries:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **styled-components**: For styling React components with CSS-in-JS.
+- **axios**: For making HTTP requests to the OpenWeatherMap API.
+- **react-router-dom**: For client-side routing in React applications.
 
-### Advanced Configuration
+## Contributors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project was developed by Pawan Maurya.
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is licensed under the [MIT License](LICENSE).
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
